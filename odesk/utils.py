@@ -7,6 +7,9 @@ python-odesk version 0.2
 from datetime import date
 
 
+__all__ = ['Q', 'Query', 'Table']
+
+
 class Q(object):
     '''Simple query constructor'''
 

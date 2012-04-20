@@ -14,6 +14,9 @@ from odesk.namespaces import Namespace
 from odesk.http import HttpRequest
 
 
+__all__ = ['OAuth']
+
+
 class OAuth(Namespace):
     """
     oAuth support in oDesk is in beta currently.

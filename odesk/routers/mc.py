@@ -21,6 +21,9 @@ from odesk.exceptions import *
 from odesk.namespaces import Namespace
 
 
+__all__ = ['MC']
+
+
 class MC(Namespace):
     api_url = 'mc/'
     version = 1

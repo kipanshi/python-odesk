@@ -22,6 +22,9 @@ from odesk.namespaces import Namespace
 from odesk.utils import *
 
 
+__all__ = ['HR']
+
+
 class HR(Namespace):
     """
     HR API

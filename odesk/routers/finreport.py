@@ -22,6 +22,9 @@ from odesk.namespaces import GdsNamespace
 from odesk.utils import *
 
 
+__all__ = ['Finreports']
+
+
 class Finreports(GdsNamespace):
     api_url = 'finreports/'
     version = 2

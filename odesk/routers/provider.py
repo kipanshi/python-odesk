@@ -22,6 +22,9 @@ from odesk.namespaces import Namespace
 from odesk.utils import *
 
 
+__all__ = ['Provider']
+
+
 class Provider(Namespace):
     api_url = 'profiles/'
     version = 1

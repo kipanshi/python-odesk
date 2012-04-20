@@ -8,6 +8,18 @@ import logging
 import urllib2
 
 
+__all__ = ['BaseException',
+           'HTTP400BadRequestError',
+           'HTTP401UnauthorizedError',
+           'HTTP403ForbiddenError',
+           'HTTP404NotFoundError',
+           'InvalidConfiguredException',
+           'APINotImplementedException',
+           'AuthenticationError',
+           'NotAuthenticatedError',
+]
+
+
 class BaseException(Exception):
     def __init__(self, *args, **kwargs):
         logging.debug("[python-odesk]:" + unicode(s) for s in args)

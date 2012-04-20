@@ -21,6 +21,9 @@ except ImportError:
 from odesk.namespaces import Namespace
 
 
+__all__ = ['Auth']
+
+
 class Auth(Namespace):
 
     api_url = 'auth/'

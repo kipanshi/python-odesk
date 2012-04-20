@@ -21,6 +21,9 @@ except ImportError:
 from odesk.namespaces import Namespace
 
 
+__all__ = ['Team']
+
+
 class Team(Namespace):
 
     api_url = 'team/'

@@ -21,6 +21,9 @@ from odesk.exceptions import *
 from odesk.utils import *
 
 
+__all__ = ['raise_http_error', 'HttpRequest']
+
+
 def raise_http_error(e):
     '''Raise custom exception'''
     if e.code == 400:

@@ -22,6 +22,9 @@ from odesk.http import *
 from odesk.utils import *
 
 
+__all__ = ['Namespace', 'GdsNamespace', 'NonauthGdsNamespace']
+
+
 class Namespace(object):
     """
     A special 'proxy' class to keep API methods organized

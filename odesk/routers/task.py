@@ -21,6 +21,9 @@ except ImportError:
 from odesk.namespaces import Namespace
 
 
+__all__ = ['Task']
+
+
 class Task(Namespace):
     api_url = 'otask/'
     version = 1

@@ -22,6 +22,9 @@ from odesk.namespaces import GdsNamespace, NonauthGdsNamespace
 from odesk.utils import *
 
 
+__all__ = ['OConomy', 'NonauthOConomy']
+
+
 class OConomy(GdsNamespace):
     api_url = 'oconomy/'
     version = 1
