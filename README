@@ -9,3 +9,13 @@ Python bindings to oDesk API
 * Documentation: http://odesk.github.com/python-odesk/
 * Mailing list: python-odesk@googlegroups.com
 * Facebook group: http://www.facebook.com/group.php?gid=136364403050710
+
+To run tests:
+
+    nosetests odesk/tests.py
+
+Requirements are:
+
+    nose
+    mock
+    oauth2

@@ -7,6 +7,7 @@ python-odesk version 0.4
 from odesk import Client, BaseClient, utils, get_version, signed_urlencode
 from odesk.exceptions import *
 from odesk.namespaces import *
+from odesk.http import HttpRequest
 from odesk.auth import Auth
 from odesk.oauth import OAuth
 from odesk.routers.team import Team
